@@ -1,0 +1,8 @@
+/* Assigns color to elements in body tags using nested declarations */
+body {
+	color: #3D3D3D;
+
+	> .red {
+		color: #FF0000;
+	}
+}

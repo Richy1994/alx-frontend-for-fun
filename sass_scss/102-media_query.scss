@@ -1,0 +1,24 @@
+/* Assigns font sizes and color to h1 tags using media query */
+$breakpoint-large: 960px;
+$breakpoint-medium: 640px;
+$breakpoint-small: 320px;
+
+h1 {
+  font-size: 20px;
+
+  @media screen and (max-width: $breakpoint-large) {
+    font-size: 18px;
+  }
+
+  @media screen and (max-width: $breakpoint-medium) {
+    font-size: 16px;
+  }
+
+  @media screen and (max-width: $breakpoint-small) {
+    font-size: 14px;
+    
+    &.small {
+      color: #1D1D1D;
+    }
+  }
+}

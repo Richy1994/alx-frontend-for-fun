@@ -1,0 +1,16 @@
+/* Assign text and background colors */
+$primaryColor: #3D3D3D;
+$primaryBackground: #6D6D6D;
+
+body {
+	color: $primaryColor;
+	background-color: $primaryBackground;
+}
+
+p {
+	color: $primaryColor;
+}
+
+h2 {
+	background-color: $primaryBackground;
+}

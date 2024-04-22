@@ -1,0 +1,14 @@
+/* Assigns and extends font sizes and styles */
+.info {
+	font-size: 12px;
+}
+
+.success {
+	color: #00FF00;
+	@extend .info;
+}
+
+.warning {
+	@extend .info;
+	color: #FF0000;
+}

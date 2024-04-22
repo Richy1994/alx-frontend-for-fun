@@ -1,0 +1,10 @@
+/* Assigns font sizes to tags using Media query */
+$breakpoint: 320px;
+
+  h1 {
+    font-size: 20px;
+
+    @media screen and (max-width: $breakpoint) {
+      font-size: 14px;
+    }
+}
